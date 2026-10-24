@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #090c12;
+  color: #e9f1f7;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background-image:
+    radial-gradient(ellipse at 10% 0%, #11252a 0, transparent 40%),
+    radial-gradient(ellipse at 95% 10%, #211936 0, transparent 35%);
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(21, 31, 43, 0.85), rgba(13, 18, 27, 0.76));
+  border: 1px solid rgba(170, 200, 220, 0.11);
+  box-shadow: 0 20px 70px #0004;
+  backdrop-filter: blur(18px);
+}
+
+.glow {
+  box-shadow: 0 0 30px #69f0c022;
+}
+
+.label {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  color: #8192a4;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #69f0c0;
+  box-shadow: 0 0 12px #69f0c0;
+}
+
+:focus-visible {
+  outline: 2px solid #69f0c0;
+  outline-offset: 2px;
+}

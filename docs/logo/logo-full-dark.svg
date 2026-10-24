@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <!-- Left Mark Container (Scaled to 220x220, positioned at x=50, y=50) -->
+  <g transform="translate(50, 50) scale(0.4296875)">
+    <!-- Squircle container -->
+    <rect width="512" height="512" rx="112" fill="#1E1B4B"/>
+    <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#4338CA" stroke-width="4"/>
+
+    <!-- Dialectic Grid Accents -->
+    <path d="M 256 68 V 96 M 256 416 V 444 M 68 256 H 96 M 416 256 H 444"
+          stroke="#4338CA" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Top Speech Bubble (Violet) -->
+    <path d="M 124 240
+             V 128
+             A 32 32 0 0 1 156 96
+             H 260
+             C 340 96 392 148 392 240
+             H 336
+             L 290 274
+             L 312 240
+             C 322 186 294 164 256 164
+             H 192
+             V 240
+             H 124
+             Z"
+          fill="#8B5CF6"/>
+
+    <!-- Bottom Speech Bubble (Amber) -->
+    <path d="M 124 272
+             V 384
+             A 32 32 0 0 0 156 416
+             H 260
+             C 340 416 392 364 392 272
+             H 324
+             C 324 326 294 348 256 348
+             H 192
+             V 272
+             H 200
+             L 222 238
+             L 176 272
+             H 124
+             Z"
+          fill="#F59E0B"/>
+
+    <!-- Truth Diamond -->
+    <polygon points="256,238 274,256 256,274 238,256" fill="#FFFFFF"/>
+
+    <!-- Crosshair Pips -->
+    <circle cx="256" cy="222" r="3.5" fill="#C4B5FD"/>
+    <circle cx="256" cy="290" r="3.5" fill="#FDE68A"/>
+    <circle cx="222" cy="256" r="3.5" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="290" cy="256" r="3.5" fill="#FFFFFF" opacity="0.85"/>
+  </g>
+
+  <!-- Wordmark Section (Tuned for dark backgrounds) -->
+  <g>
+    <!-- Brand Name -->
+    <text x="310" y="172" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="-1.5">
+      <tspan fill="#FFFFFF">Debat</tspan><tspan fill="#A78BFA">rix</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="314" y="218" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="4" fill="#A5B4FC">
+      AI REASONING &amp; SPARRING ENGINE
+    </text>
+  </g>
+</svg>
